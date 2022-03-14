@@ -12,7 +12,7 @@ const GameBoard = () => {
     
     for (let i = 0; i < horizontal.length; i++) {
         for (let j = 0; j < vertical.length; j++) {
-            board.push(<GameCell>{horizontal[i]} {vertical[j]}</GameCell>)
+            board.push(<GameCell/>)
         }
     }
     
