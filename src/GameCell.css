@@ -1,6 +1,11 @@
 .cell{
+    display: grid;
     background-color: lightgreen;
-    height: 1rem;
-    width: 1rem;
+    height: 3rem;
+    width: 3rem;
     font-weight: bold;
+}
+
+.cell:hover{
+    background-color: white;
 }

@@ -4,8 +4,8 @@ import './GameCell.css';
 
 const GameCell = () => {
     return(
-        <h1 className="cell">
-        </h1>
+        <div className="cell">
+        </div>
         )
 }
 

@@ -1,6 +1,7 @@
 import React from 'react';
 
 import GameCell from './GameCell.js';
+import './GameBoard.css';
 
 const GameBoard = () => {
     
@@ -16,7 +17,7 @@ const GameBoard = () => {
     }
     
     return(
-        <div>
+        <div className="game-board">
             {board}
         </div>
         )
